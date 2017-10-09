@@ -1,0 +1,24 @@
+<html>
+   <body onclick="Shot(event);">
+     <img src="http://www.sztucer.pl/images/items/2053/tarczasztucer1_big1_big.jpg">
+     <script>
+	function Shot(event)
+	{
+		var x = event.clientX -384;
+		var y = event.clientY -384;
+		if ( (x*x+y*y)<=(33*33))
+		{	
+			alert("Trafiony za 10!")
+		}
+		else if ( (x*x+y*y)>=(33*33)<=(64*64))
+		{
+			alert("Trafiony za 9")
+		}
+		else if ( (x*x+y*y)<=(64*64)<=(97*97))
+		{
+			alert("Trafiony za 8")
+		}
+	}
+      </script>
+   </body>
+</html>
