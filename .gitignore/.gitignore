@@ -1,0 +1,56 @@
+<html>
+   <body onclick="Shot(event);">
+     <img src="http://www.sztucer.pl/images/items/2053/tarczasztucer1_big1_big.jpg">
+     <script>
+	function Shot(event)
+	{
+		var x = event.clientX -384;
+		var y = event.clientY -384;
+		if ( (x*x+y*y)<=(320*320))
+		{
+			alert("Trafiony za 1!")
+		}
+		else
+		{
+			alert("Pudło")
+		}
+		if ( (x*x+y*y)<=(290*290))
+		{
+			alert("Trafiony za 2")
+		}
+		if ( (x*x+y*y)<=(257*257))
+		{
+			alert("Trafiony za 3")
+		}
+		if ( (x*x+y*y)<=(225*225))
+		{
+			alert("Trafiony za 4")
+		}
+		if ( (x*x+y*y)<=(193*193))
+		{
+			alert("Trafiony za 5")
+		}
+		if ( (x*x+y*y)<=(161*161))
+		{
+			alert("Trafiony za 6")
+		}
+		if ( (x*x+y*y)<=(128*128))
+		{
+			alert("Trafiony za 7")
+		}
+		if ( (x*x+y*y)<=(97*97))
+		{
+			alert("Trafiony za 8")
+		}
+		if ( (x*x+y*y)<=(64*64))
+		{
+			alert("Trafiony za 9")
+		}
+		if ( (x*x+y*y)<=(33*33))
+		{	
+			alert("Trafiony za 10!")
+		}
+	}
+      </script>
+   </body>
+</html>
