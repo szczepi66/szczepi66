@@ -1,7 +1,7 @@
 - 👋 Hi, I’m @szczepi66
 - 👀 I’m interested in anime, games and gym
-- 🌱 I’m currently learning c++ and python 
-- 💞️ I’m looking to collaborate on not kil.... myself
+- 🌱 
+- 💞️ 
 - 📫 How to reach me ...
 
 <!---
